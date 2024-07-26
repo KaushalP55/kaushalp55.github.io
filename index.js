@@ -6,18 +6,6 @@ const githubUsername = 'kaushalP55';
 const githubUsernameDiv = document.getElementById('gh-username');
 const githubRepositoriesDiv = document.getElementById('gh-repositories');
 
-// async function updateCodeforcesTooltip() {
-//   codeforcesHandleDiv.innerHTML = `Handle: ${codeforcesHandle}`;
-//   const res = await fetch(
-//     `https://codeforces.com/api/user.info?handles=${codeforcesHandle}`
-//   );
-//   const data = await res.json();
-//   if (data.status === 'OK') {
-//     const { rating } = data.result[0];
-//     codeforcesRatingDiv.innerHTML = `Rating: ${rating}`;
-//   }
-// }
-
 async function updateGithubTooltip() {
   console.log('Working....');
   githubUsernameDiv.innerHTML = `Username: ${githubUsername}`;
