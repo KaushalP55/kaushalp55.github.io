@@ -27,7 +27,7 @@ html,
 
 .profile-image {
   border-radius: 50%;
-  height: 21rem;
+  height: 80%;
   transition: 0.5s;
 }
 
