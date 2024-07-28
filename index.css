@@ -21,19 +21,16 @@ html,
 
 .profile-image-container {
   display: flex;
-  height: 22rem;
   align-items: center;
 }
 
 .profile-image {
   border-radius: 50%;
-  height: 80%;
   transition: 0.5s;
 }
 
 .profile-image:hover {
   border-radius: 10%;
-  height: 22rem;
 }
 
 .name {
