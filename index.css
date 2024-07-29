@@ -27,6 +27,7 @@ html,
 .profile-image {
   border-radius: 50%;
   transition: 0.5s;
+  height: 15rem;
 }
 
 .profile-image:hover {
